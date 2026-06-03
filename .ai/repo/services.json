@@ -10,7 +10,7 @@
       "runtime": "dbgate-fork-repo",
       "tags": [
         "repo",
-        "lazy-singleton",
+        "multi-session",
         "knowledge",
         "codebase"
       ]
@@ -41,7 +41,7 @@
       "runtime": "dbgate-fork-repo",
       "tags": [
         "repo",
-        "lazy-singleton",
+        "multi-session",
         "knowledge"
       ]
     },
@@ -52,7 +52,7 @@
       "runtime": "dbgate-fork-repo",
       "tags": [
         "repo",
-        "lazy-singleton",
+        "multi-session",
         "filesystem"
       ]
     }

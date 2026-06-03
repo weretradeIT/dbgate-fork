@@ -28,7 +28,8 @@
         "CODEBASE_REPO_SLUG": "dbgate-fork",
         "CODEBASE_DEFAULT_APP_TYPE": "internal",
         "CODEBASE_REBUILD_ON_START": "1"
-      }
+      },
+      "multiSession": true
     },
     "docs": {
       "entry": "{{workspaceRoot}}/.ai/host/run-service-entry.mjs",
@@ -37,7 +38,8 @@
         "REPO_ROOT": "{{repoRoot}}",
         "MCP_SERVER_NAME": "dbgate-fork-docs",
         "MCP_PROVIDER_ENTRY_RELATIVE": "docs-server/index.js"
-      }
+      },
+      "multiSession": true
     },
     "filesystem-enhanced": {
       "entry": "{{workspaceRoot}}/.ai/host/run-service-entry.mjs",
@@ -45,7 +47,8 @@
         "ALLOWED_DIRECTORIES": "{{repoRoot}}",
         "MCP_SERVER_NAME": "dbgate-fork-filesystem",
         "MCP_PROVIDER_ENTRY_RELATIVE": "filesystem-enhanced/index.js"
-      }
+      },
+      "multiSession": true
     }
   }
 }
